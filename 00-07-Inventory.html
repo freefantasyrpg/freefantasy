@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fantasy</title>
+    <link rel="stylesheet" type="text/css" href="ff.css">
+</head>
+<body>
+    <h1>Free Fantasy</h1>
+    <a href="00-00-Free-Fantasy.html" class="no-underline">&#x25c0; Back</a>
+    <div class="container">
+        <h1>Inventory</h1>
+
+        <h2>Overview</h2>
+        <div class="summary-box">
+            
+        </div>
+
+        <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif; width: 100%; text-align: left;">
+  <thead>
+    <tr style="background-color: #2c3e50; color: white;">
+      <th style="padding: 10px; width: 25%;">Traglast-Zustand</th>
+      <th style="padding: 10px; width: 30%;">Verfügbare Slots (Bsp. STR 12)</th>
+      <th style="padding: 10px; width: 25%;">Effekt auf DC-20-Proben</th>
+      <th style="padding: 10px; width: 20%;">Bewegungsrate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Normal -->
+    <tr style="background-color: #e8f8f5;">
+      <td style="font-weight: bold; padding: 10px;">Unbelastet</td>
+      <td>Bis zur aktuellen <strong>STR</strong> (z. B. 0-12 Slots)</td>
+      <td>Keine Abzüge. Volle Leistung bei allen Proben.</td>
+      <td style="color: #27ae60; font-weight: bold;">Normal (12m)</td>
+    </tr>
+    <!-- Leicht überladen -->
+    <tr style="background-color: #fef9e7;">
+      <td style="font-weight: bold; padding: 10px;">Belastet</td>
+      <td>Überschreitung um bis zu <strong>3 Slots</strong> (z. B. 13-15 Slots)</td>
+      <td>
+        • <strong>Mali von -2</strong> auf körperliche Proben.<br>
+        • Diebesfähigkeiten (Heimlichkeit/Klettern) sinken.
+      </td>
+      <td style="color: #f39c12; font-weight: bold;">Verzögert (9m)</td>
+    </tr>
+    <!-- Schwer überladen -->
+    <tr style="background-color: #ffadad;">
+      <td style="font-weight: bold; padding: 10px;">Schwer Belastet</td>
+      <td>Überschreitung um bis zu <strong>6 Slots</strong> (z. B. 16-18 Slots)</td>
+      <td>
+        • <strong>Mali von -5</strong> auf alle W20-Proben.<br>
+        • Angriffsbonus sinkt zusätzlich um 2.
+      </td>
+      <td style="color: #e74c3c; font-weight: bold;">Kriechen (6m)</td>
+    </tr>
+    <!-- Handlungsunfähig -->
+    <tr style="background-color: #34495e; color: white;">
+      <td style="font-weight: bold; padding: 10px;">Überladen</td>
+      <td>Mehr als <strong>STR + 6 Slots</strong> (z. B. 19+ Slots)</td>
+      <td>Keine Proben mehr möglich. Charakter bricht zusammen.</td>
+      <td style="color: #e74c3c; font-weight: bold;">0m (Fixiert)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif; width: 100%; text-align: left;">
+  <thead>
+    <tr style="background-color: #2c3e50; color: white;">
+      <th style="padding: 10px; width: 30%;">Kategorie</th>
+      <th style="padding: 10px; width: 45%;">Gegenstände (Beispiele)</th>
+      <th style="padding: 10px; width: 25%;">Slot-Kosten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Rüstungen -->
+    <tr style="background-color: #f5f6fa;">
+      <td style="font-weight: bold; padding: 10px;" rowspan="3">Rüstung & Schutz</td>
+      <td>Leichte Rüstung (Leder)</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot</td>
+    </tr>
+    <tr style="background-color: #f5f6fa;">
+      <td>Mittlere Rüstung (Kettenhemd)</td>
+      <td style="font-weight: bold; color: #f39c12;">2 Slots</td>
+    </tr>
+    <tr style="background-color: #f5f6fa;">
+      <td>Schwere Rüstung (Plattenpanzer)</td>
+      <td style="font-weight: bold; color: #c0392b;">3 Slots</td>
+    </tr>
+    <!-- Waffen -->
+    <tr>
+      <td style="font-weight: bold; padding: 10px;" rowspan="3">Waffen</td>
+      <td>Dolch, Wurfpfeil, Schleuder</td>
+      <td style="font-weight: bold; color: #27ae60;">0 Slots (2 pro Slot)</td>
+    </tr>
+    <tr>
+      <td>Einhandschwert, Axt, Speer, Bogen, Schild</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot (je Gegenstand)</td>
+    </tr>
+    <tr>
+      <td>Zweihandschwert, Hellebarde, schwere Armbrust</td>
+      <td style="font-weight: bold; color: #f39c12;">2 Slots</td>
+    </tr>
+    <!-- Erkundung -->
+    <tr style="background-color: #f5f6fa;">
+      <td style="font-weight: bold; padding: 10px;" rowspan="4">Erkundung & Licht</td>
+      <td>Seil (15m), Brecheisen, Hammer & Meißel</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot (je Gegenstand)</td>
+    </tr>
+    <tr style="background-color: #f5f6fa;">
+      <td>Fackeln (6 Stück) oder Öllampen-Öl (3 Flaschen)</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot (gebündelt)</td>
+    </tr>
+    <tr style="background-color: #f5f6fa;">
+      <td>Rationen (7 Tage / 1 Woche) oder Wasserschlauch (voll)</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot (gebündelt)</td>
+    </tr>
+    <tr style="background-color: #f5f6fa;">
+      <td>Diebeswerkzeug, Alchemistisches Feuer, Heiltrank (1)</td>
+      <td style="font-weight: bold; color: #27ae60;">0 Slots (3 pro Slot)</td>
+    </tr>
+    <!-- Schätze -->
+    <tr>
+      <td style="font-weight: bold; padding: 10px;" rowspan="3">Schätze & Beute</td>
+      <td>Münzen (bis zu 100 Gold-/Silbermünzen)</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot</td>
+    </tr>
+    <tr>
+      <td>Edelsteine & Schmuck (bis zu 10 kleine Teile)</td>
+      <td style="font-weight: bold; color: #27ae60;">1 Slot</td>
+    </tr>
+    <tr>
+      <td>Klobige Beute (Goldene Statue, schwere Truhe)</td>
+      <td style="font-weight: bold; color: #c0392b;">3 bis 5 Slots</td>
+    </tr>
+  </tbody>
+</table>
+
+        <div class="footer">Made für Free Fantasy GMs</div>
+    </div>
+
+</body>
+</html>

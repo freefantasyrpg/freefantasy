@@ -1,0 +1,73 @@
+.intro {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-style: italic;
+
+    text-align: center;
+}
+
+/* --- Monster Card --- */
+.monster-card {
+    background: #f4f1e9;
+    border: 2px solid #3a2f1b;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 8px;
+}
+
+/* --- Header --- */
+.monster-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3a2f1b;
+    padding-bottom: 8px;
+}
+
+.monster-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3a2f1b;
+}
+
+.monster-meta {
+    font-size: 1rem;
+    font-style: italic;
+    color: #5a4a32;
+}
+
+/* --- Stats Grid --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.stat-box {
+    background: #e8e2d4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #3a2f1b;
+    margin-bottom: 5px;
+}
+
+/* --- Section Titles --- */
+.section-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #3a2f1b;
+    border-bottom: 2px solid #3a2f1b;
+    padding-bottom: 4px;
+}

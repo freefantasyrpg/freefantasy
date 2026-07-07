@@ -1,0 +1,15 @@
+.accordion {
+    cursor: pointer;
+    transition: 0.4s;
+}
+.accordion:before {
+    content: "\25bc";
+}
+.active:before {
+    content: "\25b2";
+}
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
