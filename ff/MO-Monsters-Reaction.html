@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fantasy</title>
+    <link rel="stylesheet" type="text/css" href="../css/ff.css">
+</head>
+<body>
+    <h1>Free Fantasy</h1>
+    <a href="../index.html">&#x25c0; Back</a>
+    <div class="container">
+    <h1>Monsters reactions</h1>
+    <table class="mb-1">
+    <thead>
+        <tr style="color: white;">
+        <th style="padding: 10px; width: 15%;">d20</th>
+        <th style="padding: 10px; width: 42%; background-color: #2980b9;">1. REAKTION (Begegnung im Dungeon)</th>
+        <th style="padding: 10px; width: 43%; background-color: #c0392b;">2. MORAL (Verhalten im Kampf)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- DC 20+ -->
+        <tr style="background-color: #e8f8f5;">
+        <td style="font-weight: bold; padding: 10px; color: #27ae60;">20 or more</td>
+        <td><strong>Absolut Freundlich:</strong> Die Kreaturen bieten Hilfe, Informationen oder eine Allianz an.</td>
+        <td><strong>Furchtlos:</strong> Die Monster kämpfen fanatisch bis zum bitteren Ende. Kein weiterer Moralwurf nötig.</td>
+        </tr>
+        <!-- DC 15-19 -->
+        <tr style="background-color: #e8f8f5;">
+        <td style="font-weight: bold; padding: 10px; color: #27ae60;">15 - 19</td>
+        <td><strong>Vorsichtig / Neutral:</strong> Sie sind gesprächsbereit, fordern aber eine Gegenleistung oder Zoll.</td>
+        <td><strong>Standhaft:</strong> Die Monster halten die Linie und setzen den Angriff diszipliniert fort.</td>
+        </tr>
+        <!-- DC 10-14 -->
+        <tr style="background-color: #fef9e7;">
+        <td style="font-weight: bold; padding: 10px; color: #f39c12;">10 - 14</td>
+        <td><strong>Unschlüssig / Bedrohlich:</strong> Sie knurren, ziehen Waffen und fordern die Spieler auf, zu gehen.</td>
+        <td><strong>Zögerlich:** Die Monster weichen defensiv zurück. Fernkämpfer suchen Deckung, Angriffe werden vorsichtiger.</td>
+        </tr>
+        <!-- DC 6-9 -->
+        <tr style="background-color: #ffadad;">
+        <td style="font-weight: bold; padding: 10px; color: #e74c3c;">6 - 9</td>
+        <td><strong>Feindselig:</strong> Sie fordern die sofortige Kapitulation der Gruppe oder bereiten einen Hinterhalt vor.</td>
+        <td><strong>Rückzug:</strong> Die Kreaturen versuchen einen geordneten Rückzug. Sie decken ihren Ausweg mit Schilden.</td>
+        </tr>
+        <!-- DC 5 oder weniger -->
+        <tr style="background-color: #ffc6ff;">
+        <td style="font-weight: bold; padding: 10px; color: #9b59b6;">5 or less</td>
+        <td><strong>Sofortiger Angriff:</strong> Die Kreaturen stürzen sich ohne Vorwarnung und voller Wut auf die Gruppe.</td>
+        <td><strong>Panik / Flucht:** Die Moral bricht komplett. Monster rennen kopflos weg, werfen Waffen ab oder winseln um Gnade.</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+    <table>
+    <thead>
+        <tr style="background-color: #2c3e50; color: white;">
+        <th style="padding: 10px; width: 30%;">Ereignis im Kampf (Trigger)</th>
+        <th style="padding: 10px; width: 25%;">Wer würfelt?</th>
+        <th style="padding: 10px; width: 45%;">W20-Modifikator für den Wurf</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Trigger 1: Erstes Blut -->
+        <tr style="background-color: #f5f6fa;">
+        <td style="font-weight: bold; padding: 10px;">Das erste Monster stirbt</td>
+        <td>Die verbleibende Gruppe</td>
+        <td><strong>Normaler Wurf:</strong> W20 + HD des stärksten verbliebenen Monsters.</td>
+        </tr>
+        <!-- Trigger 2: Hälfte der Gruppe weg -->
+        <tr>
+        <td style="font-weight: bold; padding: 10px;">Die Hälfte der Monster-Gruppe ist tot</td>
+        <td>Die Überlebenden</td>
+        <td><strong>Erhöhte Hürde:</strong> Ein permanenter Malus von <strong>-2</strong> auf den Wurf.</td>
+        </tr>
+        <!-- Trigger 3: Anführer verliert Ausdauer -->
+        <tr style="background-color: #ffadad;">
+        <td style="font-weight: bold; padding: 10px;">Der Anführer erleidet ersten Fleischschaden (Ausdauer = 0, CON sinkt)</td>
+        <td>Die Schergen / Gefolgsleute</td>
+        <td><strong>Schock-Effekt:</strong> Ein schwerer Malus von <strong>-4</strong>. Sie sehen ihren Boss bluten.</td>
+        </tr>
+        <!-- Trigger 4: Anführer fällt -->
+        <tr style="background-color: #ffc6ff;">
+        <td style="font-weight: bold; padding: 10px;">Der Anführer stirbt oder flieht</td>
+        <td>Alle verbliebenen Monster</td>
+        <td><strong>Verzweiflung:</strong> Malus von <strong>-5</strong> auf den Wurf.</td>
+        </tr>
+        <!-- Trigger 5: Magischer Schrecken -->
+        <tr style="background-color: #e8f8f5;">
+        <td style="font-weight: bold; padding: 10px;">Ein Zauberer nutzt ein Schock- oder Feuerelement (Erfolgsstufe Hoch)</td>
+        <td>Betroffene Kreaturen</td>
+        <td>Nutzt den Rettungswert des Zaubers als Malus (z.B. <strong>-Modifikator des Zauberers</strong>).</td>
+        </tr>
+    </tbody>
+
+    </table>
+    <div class="footer">Made für Free Fantasy GMs</div>
+    </div>
+    <script src="../js/accordian.js"></script>
+</body>
+</html>
