@@ -95,3 +95,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.flex-center {
+    display: flex; 
+    justify-content: center;
+}
+.image {
+    width: 30%;
+}
+.image:hover {
+    width: 100%;
+}
