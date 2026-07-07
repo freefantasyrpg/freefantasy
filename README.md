@@ -1,4 +1,8 @@
 # Free Fantasy
+**A d20‑compatible fantasy role‑playing system**
+
+Created by **Swen Rühl**  
+with contributions from **Gemini** and **Copilot**
 
 **Free Fantasy** is a lightweight, class‑based fantasy role‑playing system inspired by  
 **AD&D 2e**, **Basic Fantasy**, and modern OSR design.  
