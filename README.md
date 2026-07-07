@@ -1,3 +1,5 @@
+![Free Fantasy Banner](https://github.com/freefantasyrpg/freefantasy/blob/master/images/Copilot_20260708_002640-banner.png)
+
 # Free Fantasy
 **A d20‑compatible fantasy role‑playing system**
 
