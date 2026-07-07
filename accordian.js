@@ -1,5 +1,6 @@
 // I misspelt accordian.css, now it is too late
 
+// From w3schools (updated by me)
 const acc = document.getElementsByClassName("accordion");
 
 for (let i = 0; i < acc.length; i++) {
@@ -7,9 +8,9 @@ for (let i = 0; i < acc.length; i++) {
         this.classList.toggle("active");
         const panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
+            panel.style.maxHeight = null;
         } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
+            panel.style.maxHeight = panel.scrollHeight + "px";
         } 
     });
 }
