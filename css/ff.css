@@ -102,6 +102,9 @@ a:hover {
 .image {
     width: 30%;
 }
+.image-small {
+    width: 10%;
+}
 .image:hover {
     width: 100%;
 }
