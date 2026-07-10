@@ -15,6 +15,18 @@ The system aims to be:
 - **Compatible** – most published adventures and bestiaries work without modification  
 - **Modular** – easy to expand, hack, or customize  
 - **Classic** – familiar fantasy archetypes with modern refinements  
+## Core rules TL;DR
+(Also have a look into ff/00-01-TLDR.html)
+### DC 20 resolution
+Resolving an actionb requires an DC 20 roll. Attack are made against the enemy's AC.
+### Weapon damage
+Damage is determined by the class
+### Armor
+Three tiers of armor, defnied by cost. For example a cheap plate mail (125g) AC 12
+### Classes
+Classes are divided in beginner (level 1-3) and multiple advanced path (level 4+)
+### Damage
+Instead of hitpoints, ff uses endurance. This is regenerated very fast. Once you ran out of endurance you lose CON,STR & DEX.
 
 ---
 
