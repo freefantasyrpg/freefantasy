@@ -27,41 +27,41 @@
         <table>
         <thead>
             <tr style="background-color: #2c3e50; color: white;">
-            <th style="padding: 10px;">State</th>
-            <th style="padding: 10px;">Example</th>
-            <th style="padding: 10px;">Effect</th>
-            <th style="padding: 10px;"></th>
+            <th class="p-10">State</th>
+            <th class="p-10 w-25">Example</th>
+            <th class="p-10">Effect</th>
+            <th class="p-10"></th>
             </tr>
         </thead>
         <tbody>
             <!-- Phase 1: Endurance -->
             <tr style="background-color: #e8f8f5;">
-                <td style="font-weight: bold; padding: 10px;">Lost Endurance</td>
+                <td class="p-10"><strong>Lost Endurance</strong></td>
                 <td>CON 14 | STR 12 | DEX 10</td>
                 <td>
                     <ul>
                         <li>No negative effects.</li>
                     </ul>
                 </td>
-                <td style="color: #27ae60; font-weight: bold;">Not Harmed</td>
+                <td style="color: #27ae60;"><strong>Not Harmed</strong></td>
             </tr>
 
             <!-- Phase 2: Constitution -->
             <tr style="background-color: #fef9e7;">
-                <td style="font-weight: bold; padding: 10px;">Flesh Wound<br>(CON decreases)</td>
-                <td><span style="color: #c0392b; font-weight: bold;">CON 13 to 1</span><br>STR 12 | DEX 10</td>
+                <td class="p-10"><strong>Flesh Wound<br>(CON decreases)</strong></td>
+                <td><span style=" color: #c0392b;"><strong>CON 13 to 1</span><br>STR 12 | DEX 10</strong></td>
                 <td>
                     <ul>
                         <li><strong>Saving throws against poison and shock become increasingly difficult.</strong></li>
                     </ul>
                 </td>
-                <td style="color: #f39c12; font-weight: bold;">Wounded</td>
+                <td style="color: #f39c12; "><strong>Wounded</strong></td>
             </tr>
 
             <!-- Phase 3: Strength -->
             <tr style="background-color: #ffadad;">
-                <td style="font-weight: bold; padding: 10px;">Deep Wounds<br>(CON=0, STR decreases)</td>
-                <td>CON 0<br><span style="color: #c0392b; font-weight: bold;">STR 11 to 1</span><br>DEX 10</td>
+                <td class="p-10"><strong>Deep Wounds<br>(CON=0, STR decreases)</strong></td>
+                <td>CON 0<br><span style=" color: #c0392b;">STR 11 to 1</span><br>DEX 10</td>
                 <td>
                     <ul>
                         <li>The character is on the verge of collapse.</li>
@@ -69,13 +69,13 @@
                         <li>d20 checks for lifting or breaking objects are barely possible.</li>
                     </ul>
                 </td>
-                <td style="color: #e74c3c; font-weight: bold;">Seriously Injured</td>
+                <td style="color: #e74c3c; "><strong>Seriously Injured</strong></td>
             </tr>
 
             <!-- Phase 4: Dexterity -->
             <tr style="background-color: #ffc6ff;">
-                <td style="font-weight: bold; padding: 10px;">Death Struggle<br>(CON/STR=0, DEX decreases)</td>
-                <td>CON 0 | STR 0<br><span style="color: #c0392b; font-weight: bold;">DEX 9 to 1</span></td>
+                <td class="p-10"><strong>Death Struggle<br>(CON/STR=0, DEX decreases)</strong></td>
+                <td>CON 0 | STR 0<br><span style="color: #c0392b; "><strong>DEX 9 to 1</span></strong></td>
                 <td>
                     <ul>
                         <li>Only crawling is still possible.</li>
@@ -83,19 +83,19 @@
                         <li>Reflex saving throws against DCs are nearly impossible.</li>
                     </ul>
                 </td>
-                <td style="color: #9b59b6; font-weight: bold;">Critical</td>
+                <td style="color: #9b59b6; ">Critical</td>
             </tr>
 
             <!-- Phase 5: Death -->
             <tr style="background-color: #34495e; color: white;">
-                <td style="font-weight: bold; padding: 10px;">AAll Physical Strengths Exhausted</td>
+                <td class="p-10"><strong>AAll Physical Strengths Exhausted</strong></td>
                 <td>CON 0 | STR 0 | DEX 0</td>
                 <td>
                     <ul>
                         <li>No checks possible.</li>
                     </ul>
                 </td>
-                <td style="color: #e74c3c; font-weight: bold; text-transform: uppercase;">Dead</td>
+                <td style="color: #e74c3c;  text-transform: uppercase;"><strong>Dead</strong></td>
             </tr>
             </tbody>
 
@@ -107,24 +107,24 @@
         <table>
         <thead>
             <tr style="background-color: #2c3e50; color: white;">
-            <th style="padding: 10px; width: 25%;">Rast / Heilungstyp</th>
-            <th style="padding: 10px; width: 35%;">Regenerations-Rate</th>
-            <th style="padding: 10px; width: 40%;">Bedingungen & Einschränkungen</th>
+            <th class="p-10 w-25">Rast / Heilungstyp</th>
+            <th class="p-10 w-35">Regenerations-Rate</th>
+            <th class="p-10 w-40">Bedingungen & Einschränkungen</th>
             </tr>
         </thead>
         <tbody>
             <tr style="background-color: #e8f8f5;">
-            <td style="font-weight: bold; padding: 10px;">Kurze Rast (10 Min)</td>
+            <td class="p-10">Kurze Rast (10 Min)</td>
             <td><strong>1W6 + Stufe</strong> Ausdauer-HP</td>
             <td>Maximal 2-mal pro Tag. Repräsentiert Durchatmen und Bandagieren.</td>
             </tr>
             <tr style="background-color: #e8f8f5;">
-            <td style="font-weight: bold; padding: 10px;">Lange Rast (8 Std)</td>
+            <td class="p-10">Lange Rast (8 Std)</td>
             <td><strong>Alle</strong> Ausdauer-HP zurück</td>
             <td>Nur in sicherer Umgebung (Gasthaus/voll verbarrikadiert).</td>
             </tr>
             <tr style="background-color: #fef9e7;">
-            <td style="font-weight: bold; padding: 10px;">Medizinische Ruhe (24 Std)</td>
+            <td class="p-10">Medizinische Ruhe (24 Std)</td>
             <td><strong>1 Punkt</strong> auf ein physisches Attribut</td>
             <td>
             • Charakter darf absolut nichts tun.<br>
@@ -132,7 +132,7 @@
             </td>
             </tr>
             <tr style="background-color: #ffadad;">
-            <td style="font-weight: bold; padding: 10px;">Magische Heilung (Basis)</td>
+            <td class="p-10">Magische Heilung (Basis)</td>
             <td>Wandelt X Punkte Würfelaugen um</td>
             <td>
             • Heilt zuerst verbleibenden Ausdauerschaden.<br>
@@ -140,7 +140,7 @@
             </td>
             </tr>
             <tr style="background-color: #ffc6ff;">
-            <td style="font-weight: bold; padding: 10px;">Kritischer Heilerfolg</td>
+            <td class="p-10">Kritischer Heilerfolg</td>
             <td>Sofort <strong>1W4 Punkte</strong> auf alle Attribute</td>
             <td>Kann über dein bereits entwickeltes Magie-Erfolgsstufensystem getriggert werden.</td>
             </tr>

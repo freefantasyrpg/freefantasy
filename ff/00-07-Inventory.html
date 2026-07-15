@@ -21,10 +21,10 @@
         <table class="mb-1">
   <thead>
     <tr style="color: white;">
-      <th style="padding: 10px; width: 25%;">State</th>
-      <th style="padding: 10px; width: 30%;">Slots used</th>
-      <th style="padding: 10px; width: 25%;">Effect</th>
-      <th style="padding: 10px; width: 20%;">Movement*</th>
+      <th class="p-10 w-20">State</th>
+      <th class="p-10 w-30">Slots used</th>
+      <th class="p-10 w-25">Effect</th>
+      <th class="p-10">Movement*</th>
     </tr>
   </thead>
   <tbody>
@@ -33,7 +33,7 @@
       <td><strong>Unencumbered</strong></td>
       <td>Up to <strong>STR</strong><br>(e.g. STR 12: 0 - 12 slots)</td>
       <td>No problem.</td>
-      <td style="color: #27ae60; font-weight: bold;">Normal (12m)</td>
+      <td style="color: #27ae60"><strong>Normal (12m)</strong></td>
     </tr>
     <!-- Leicht überladen -->
     <tr style="background-color: #fef9e7;">
@@ -43,7 +43,7 @@
         • <strong>-2</strong> to STR/CON checks<br>
         • <strong>-2</strong> to hide and climb
       </td>
-      <td style="color: #f39c12; font-weight: bold;">Slower (9m)</td>
+      <td style="color: #f39c12"><strong>Slower (9m)</strong></td>
     </tr>
     <!-- Schwer überladen -->
     <tr style="background-color: #ffadad;">
@@ -53,14 +53,14 @@
         • <strong>-5</strong> to all d20 checks.<br>
         • <strong>-2</strong> to attacks.
       </td>
-      <td style="color: #e74c3c; font-weight: bold;">Creeping (6m)</td>
+      <td style="color: #e74c3c"><strong>Creeping (6m)</strong></td>
     </tr>
     <!-- Handlungsunfähig -->
     <tr style="background-color: #ffa0a0;">
       <td><strong>Overloaded</strong></td>
       <td>More than <strong>STR + 6 Slots</strong><br>(e.g. STR 12: 19 or more slots)</td>
       <td>No d20 checks possible.</td>
-      <td style="color: #e74c3c; font-weight: bold;">0m</td>
+      <td style="color: #e74c3c"><strong>0m</strong></td>
     </tr>
   </tbody>
 </table>
@@ -68,9 +68,9 @@
 <table>
   <thead>
     <tr>
-      <th style="padding: 10px; width: 30%;">Category</th>
-      <th style="padding: 10px; width: 45%;">Examples</th>
-      <th style="padding: 10px; width: 25%;">Cost in slots</th>
+      <th class="p-10 w-30">Category</th>
+      <th class="p-10 w-45">Examples</th>
+      <th class="p-10">Cost in slots</th>
     </tr>
   </thead>
   <tbody>
@@ -78,61 +78,61 @@
     <tr style="background-color: #fff;">
       <td rowspan="3">Amor</td>
       <td>Light armor</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot</td>
+      <td style="color: #27ae60;">1 slot</td>
     </tr>
     <tr>
       <td>Medium armor)</td>
-      <td style="font-weight: bold; color: #f39c12;">2 slots</td>
+      <td style="color: #f39c12;">2 slots</td>
     </tr>
     <tr>
       <td>Fortified armor</td>
-      <td style="font-weight: bold; color: #c0392b;">3 slots</td>
+      <td style="color: #c0392b;">3 slots</td>
     </tr>
     <!-- Waffen -->
     <tr style="background-color: #fff;">
       <td rowspan="3">Weapons</td>
       <td>Dagger, dart, sling</td>
-      <td style="font-weight: bold; color: #27ae60;">0 slots (2 per slot)</td>
+      <td style="color: #27ae60;">0 slots (2 per slot)</td>
     </tr>
     <tr>
       <td>One-handed sword, axe, spear, bow, shield</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot (je Gegenstand)</td>
+      <td style="color: #27ae60;">1 slot (je Gegenstand)</td>
     </tr>
     <tr>
       <td>Two-handed sword, halberd, crossbow</td>
-      <td style="font-weight: bold; color: #f39c12;">2 slots</td>
+      <td style="color: #f39c12;">2 slots</td>
     </tr>
     <!-- Erkundung -->
     <tr style="background-color: #fff;">
       <td rowspan="4">Exploration &amp; light</td>
       <td>Rope (15m), crowbar, hammer & chisel</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot (per item)</td>
+      <td style="color: #27ae60;">1 slot (per item)</td>
     </tr>
     <tr>
       <td>Torches (6 pcs) or lampm oil (3 bottles)</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot (bundled)</td>
+      <td style="color: #27ae60;">1 slot (bundled)</td>
     </tr>
     <tr>
       <td>Rations (7 days) or waterskin (full)</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot (bundled)</td>
+      <td style="color: #27ae60;">1 slot (bundled)</td>
     </tr>
     <tr>
       <td>Thieves' tools, healing potion</td>
-      <td style="font-weight: bold; color: #27ae60;">0 slots (3 per slot)</td>
+      <td style="color: #27ae60;">0 slots (3 per slot)</td>
     </tr>
     <!-- Schätze -->
     <tr style="background-color: #fff;">
       <td rowspan="3">Treasure &amp; loot</td>
       <td>Coins (up to 100 gold coins)</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot</td>
+      <td style="color: #27ae60;">1 slot</td>
     </tr>
     <tr>
       <td>Gems &amp; jewelry (up to 10 pcs)</td>
-      <td style="font-weight: bold; color: #27ae60;">1 slot</td>
+      <td style="color: #27ae60;">1 slot</td>
     </tr>
     <tr>
       <td>Chunky loot (golden statue, heavy chest)</td>
-      <td style="font-weight: bold; color: #c0392b;">3 - 5 slots</td>
+      <td style="color: #c0392b;">3 - 5 slots</td>
     </tr>
   </tbody>
 </table>

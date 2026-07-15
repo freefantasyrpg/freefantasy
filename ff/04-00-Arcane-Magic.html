@@ -13,6 +13,10 @@
     <div class="container">
         <h1>Arcane magic</h1>
 
+        <div class="flex-center">
+            <img src="../images/Copilot_20260715_091454-mutation.png" class="image">
+        </div>
+
         <h2>Overview</h2>
         <div class="summary-box">
             Arcane magic is divided into two categories: <strong>Tricks</strong> and <strong>Powers</strong>.
@@ -75,38 +79,57 @@
             benefits of a Power against the potential consequences of failure.
         </p>
 
-        <h3>Result</h3>
-        
+        <h3>Tricks fail table</h3>
         <table class="mb-1"> 
         <thead>
             <tr>
-            <th style="width: 25%; text-align: center;">d20</th>
+            <th class="w-25 text-center">d20</th>
             <th>Result</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <td style="text-align: center; background-color: #e6ffe6;"><strong>30 or more</strong></td>
-            <td><strong>Legendärer success:</strong> The spell succeeds and <strong>two additional bonuses</strong></td>
-            </tr>
-            <tr>
-            <td style="text-align: center; background-color: #e6ffe6;"><strong>25 - 29</strong></td>
-            <td><strong>Critical success:</strong> The spell succeeds and receives <strong>an additional bonus</strong>.</td>
-            </tr>
-            <tr>
-            <td style="text-align: center; background-color: #e6ffe6;"><strong>20 - 24</strong></td>
+            <td class="text-center" style="background-color: #e6ffe6;"><strong>20 or more</strong></td>
             <td><strong>Normal success:</strong> The spell works as described.</td>
             </tr>
             <tr>
-            <td style="text-align: center; background-color: #f2f2f2;"><strong>11 - 19</strong></td>
+            <td class="text-center" style="background-color: #f2f2f2;"><strong>1 - 19</strong></td>
+            <td><strong>Simple fail:</strong> The energy fizzles out. Nothing happens.</td>
+            </tr>
+        </tbody>
+        </table>
+        <h3>Powers fail table</h3>
+        
+        <table class="mb-1"> 
+        <thead>
+            <tr>
+            <th class="w-25 text-center">d20</th>
+            <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="text-center" style="background-color: #e6ffe6;"><strong>30 or more</strong></td>
+            <td><strong>Legendärer success:</strong> The spell succeeds and <strong>two additional bonuses</strong></td>
+            </tr>
+            <tr>
+            <td class="text-center" style="background-color: #e6ffe6;"><strong>25 - 29</strong></td>
+            <td><strong>Critical success:</strong> The spell succeeds and receives <strong>an additional bonus</strong>.</td>
+            </tr>
+            <tr>
+            <td class="text-center" style="background-color: #e6ffe6;"><strong>20 - 24</strong></td>
+            <td><strong>Normal success:</strong> The spell works as described.</td>
+            </tr>
+            <tr>
+            <td class="text-center" style="background-color: #f2f2f2;"><strong>11 - 19</strong></td>
             <td><strong>Simple fail:</strong> The energy fizzles out. Nothing happens, but the spell is blocked for that day (until the next long rest).</td>
             </tr>
             <tr>
-            <td style="text-align: center; background-color: #ffe6e6;"><strong>2 - 10</strong></td>
+            <td class="text-center" style="background-color: #ffe6e6;"><strong>2 - 10</strong></td>
             <td><strong>Blunder:</strong> The magic goes wrong. Roll immediately on the <strong>mishap table</strong>.</td>
             </tr>
             <tr>
-            <td style="text-align: center; background-color: #ffb3b3;"><strong>Natural 1</strong></td>
+            <td class="text-center" style="background-color: #ffb3b3;"><strong>Natural 1</strong></td>
             <td><strong>Catastrophe:</strong> Regardless of modifiers, something terribly unpleasant happens, which the GM improvises spontaneously!</td>
             </tr>
         </tbody>
@@ -115,59 +138,59 @@
         <table>
         <thead>
             <tr>
-            <th style="width: 10%; text-align: center;">d10</th>
-            <th style="width: 25%;">Effect</th>
+            <th class="w-10 text-center">d10</th>
+            <th class="w-25">Effect</th>
             <th>Explanation</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <td style="text-align: center;"><strong>1</strong></td>
+            <td class="text-center"><strong>1</strong></td>
             <td><strong>Arcane antilight</strong></td>
             <td>All lights, arcane or not, torches, and candles in a 20m radius are extinguished.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>2</strong></td>
+            <td class="text-center"><strong>2</strong></td>
             <td><strong>Magic echo</strong></td>
             <td>A deafening sound. Communication is impossible for 1d4 minutes.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>3</strong></td>
+            <td class="text-center"><strong>3</strong></td>
             <td><strong>Teleport blunder</strong></td>
             <td>The caster is teleported a short distance, 1d6m, in a random direction. In a fight the target is 1-4 in the same zone, 5-6 in another zone.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>4</strong></td>
+            <td class="text-center"><strong>4</strong></td>
             <td><strong>Energy transfer</strong></td>
             <td>The caster all nearby energy. Everyone near the caster or in the same zone 1d4 cold damage.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>5</strong></td>
+            <td class="text-center"><strong>5</strong></td>
             <td><strong>Verbal blockage</strong></td>
             <td>The caster’s tongue grows 4x the size for the next 1d4 hours. Speaking and casting is impossible.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>6</strong></td>
+            <td class="text-center"><strong>6</strong></td>
             <td><strong>Mental exhaustion</strong></td>
             <td>A terrible headache! Everyone near the caster or in the same zone roll their checks at -2 for the rest of the day.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>7</strong></td>
+            <td class="text-center"><strong>7</strong></td>
             <td><strong>Wrong target</strong></td>
             <td>The spell affects the wrong target.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>8</strong></td>
+            <td class="text-center"><strong>8</strong></td>
             <td><strong>Detonation</strong></td>
             <td>1d6 damage for everyone near the caster or in the same zone.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>9</strong></td>
+            <td class="text-center"><strong>9</strong></td>
             <td><strong>Arcane vampirism</strong></td>
             <td>The caster loses 1d6 CON*. This is the normal attribute damage, ignoring the current endurance.</td>
             </tr>
             <tr>
-            <td style="text-align: center;"><strong>10</strong></td>
+            <td class="text-center"><strong>10</strong></td>
             <td><strong>Crack in the fabric</strong></td>
             <td>An extra planar enemy suddenly spawns and attacks the caster.</td>
             </tr>
