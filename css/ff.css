@@ -79,7 +79,7 @@ tr:nth-child(even) {
 .mb-1 {
     margin-bottom: 1rem;
 }
-
+.ml-05 { margin-left: 0.5rem }
 .text-center {
     text-align: center;
 }
@@ -121,3 +121,5 @@ a:hover {
 .w-35 { width: 35% }
 .w-40 { width: 40% }
 .w-45 { width: 45% }
+
+.smol-text { font-size: 0.75rem }
